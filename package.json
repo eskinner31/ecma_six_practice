@@ -1,0 +1,14 @@
+{
+  "name": "ecma_six_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "helloworld.js",
+  "scripts": {
+    "test": "nodemon --exec babel-node node_modules/jasmine/bin/jasmine.js && nodemon --exec standard"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.3.1"
+  }
+}
